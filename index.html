@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Random Title</title>
+</head>
+<body class="pt-16">
+
+  <!-- YouTube logo -->
+  <div class="flex items-center space-x-4">
+    <div class="w-12 h-12 bg-red-600 flex items-center justify-center rounded-full">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="5 3 19 12 5 21 5 3"></polygon>
+      </svg>
+    </div>
+    <div class="text-red-600 text-xl font-bold">YouTube</div>
+  </div>
+
+  <!-- Search Bar -->
+  <div class="search-bar fixed top-0 left-0 w-full p-4 bg-white shadow-lg z-50">
+    <div class="flex items-center">
+        <input class="px-4 py-2 w-full rounded-md border border-gray-300" type="text" placeholder="Search something..." aria-label="Search">
+        <button class="bg-blue-500 text-white py-2 px-4 ml-2 rounded-md">Search</button>
+    </div>
+  </div>
+
+  <!-- Navigation buttons -->
+  <div class="flex flex-col space-y-2">
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded-full w-20">
+      Home
+    </button>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded-full w-20">
+      Shorts
+    </button>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded-full w-20">
+      Playlist
+    </button>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded-full w-20">
+      Posts
+    </button>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded-full w-20">
+      <a href="index2.html">Login</a>
+    </button>
+  </div>
+
+  <!-- Images -->
+  <img src="borat.png" class="rounded mx-auto d-block" alt="Image of Borat">
+  <img src="prison.png" class="rounded mx-auto d-block" alt="Image of Prison">
+
+  <!-- Channel and Username -->
+  <div class="py-8 px-8 max-w-sm mx-auto space-y-2 bg-white rounded-xl shadow-lg sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:gap-x-6 absolute top-0 right-0">
+    <div class="text-center space-y-2 sm:text-left">
+      <p class="text-lg text-black font-semibold">Bram Brroom</p>
+      <p class="text-slate-500 font-medium">YouTube Channel</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-center">
+    <div class="container p-4"></div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2020 Copyright:
+      <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+  </footer>
+
+</body>
+</html>
